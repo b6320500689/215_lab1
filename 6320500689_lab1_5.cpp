@@ -12,6 +12,6 @@ int main()
             max=a[i];
         }
     }
-    printf("%d",max);
+    printf("%d %d",a[num],max);
     return 0;
 }
