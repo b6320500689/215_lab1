@@ -2,8 +2,8 @@
 
 int main ()
 {
-	int n=0;
-	scanf ("%d",&n);
-	printf ("%d %d",n%3,n%11);
+	long int n;
+	scanf ("%ld",&n);
+	printf ("%ld %ld",n%3,n%11);
 	return 0;
 }
